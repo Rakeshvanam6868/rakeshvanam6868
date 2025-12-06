@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Rakesh</h1>
-<h3 align="center">A passionate frontend/full-stack developer from India with a focus on modern web development.</h3>
+<h3 align="center">I’m a product-focused frontend engineer who enjoys building real systems.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rakeshvanam6868&label=Profile%20views&color=0e75b6&style=flat" alt="rakeshvanam6868" /> </p>
 
