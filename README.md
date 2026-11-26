@@ -1,84 +1,122 @@
-<div align="center">
+<p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Rakesh Vanam, Full-Stack Product Engineer: an animated isometric stack of mobile, web, API and data layers" />
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=1000&color=0070F3&center=true&vCenter=true&width=650&lines=Frontend+%26+Full-Stack+Engineer;React+%7C+Next.js+%7C+React+Native+%7C+TypeScript;Shipping+products%2C+not+tutorials)](https://git.io/typing-svg)
+<p align="center">
+  <a href="https://rakesh-vanam.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-c6f432?style=for-the-badge&logo=vercel&logoColor=0b0f14" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/rakeshvanam1/"><img src="https://img.shields.io/badge/LinkedIn-0b0f14?style=for-the-badge&logo=linkedin&logoColor=c6f432" alt="LinkedIn" /></a>
+  <a href="mailto:rakeshvanam2002@gmail.com"><img src="https://img.shields.io/badge/Email-0b0f14?style=for-the-badge&logo=gmail&logoColor=c6f432" alt="Email" /></a>
+  <a href="https://play.google.com/store/apps/details?id=com.trainzy.trainzy"><img src="https://img.shields.io/badge/Pulsezy_on_Google_Play-0b0f14?style=for-the-badge&logo=googleplay&logoColor=c6f432" alt="Pulsezy on Google Play" /></a>
+</p>
 
-**Rakesh Vanam** · India
-
-</div>
-
----
-
-### ⚡ Now
-
-Building **[Trainzy](https://trainzy.app)** — an AI-adaptive fitness app for Play Store launch.
-
----
-
-### 🛠 Stack
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-0070F3?style=flat-square&logo=react&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-0070F3?style=flat-square&logo=react&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-0070F3?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-0070F3?style=flat-square&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-0070F3?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Backend & DB**
-
-![Node.js](https://img.shields.io/badge/Node.js-0070F3?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-0070F3?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0070F3?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-0070F3?style=flat-square&logo=mongodb&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-0070F3?style=flat-square&logo=supabase&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-0070F3?style=flat-square&logo=prisma&logoColor=white)
-
-**AI & Automation**
-
-![Gemini](https://img.shields.io/badge/Google_Gemini-0070F3?style=flat-square&logo=google&logoColor=white)
-![SSE](https://img.shields.io/badge/SSE_Streaming-0070F3?style=flat-square&logoColor=white)
-![Telegram API](https://img.shields.io/badge/Telegram_API-0070F3?style=flat-square&logo=telegram&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-0070F3?style=flat-square&logo=git&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-0070F3?style=flat-square&logo=vercel&logoColor=white)
-![Expo](https://img.shields.io/badge/Expo-0070F3?style=flat-square&logo=expo&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-0070F3?style=flat-square&logo=sentry&logoColor=white)
-![PostHog](https://img.shields.io/badge/PostHog-0070F3?style=flat-square&logo=posthog&logoColor=white)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=2800&pause=900&color=C6F432&center=true&vCenter=true&width=720&lines=Shipped+Pulsezy+to+Google+Play;Built+an+embeddable+AI+chat+widget+for+a+US+client;Built+an+LMS+with+OTP+auth%2C+roles+and+payments;Open+to+full-time+roles+on+small+product+teams" alt="Typing summary of shipped work" />
+</p>
 
 ---
 
-### 🚀 Projects
+## 🛠 What I've shipped
 
-**[Trainzy](https://trainzy.app)** — AI-adaptive React Native fitness app with a custom TypeScript rules engine.
+<table>
+<tr>
+<td width="46%" valign="top">
+  <a href="https://pulsezy.app"><img src="assets/pulsezy.jpg" alt="Pulsezy website" /></a>
+</td>
+<td valign="top">
 
-![React Native](https://img.shields.io/badge/React_Native-0070F3?style=flat-square&logo=react&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-0070F3?style=flat-square&logo=typescript&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-0070F3?style=flat-square&logo=supabase&logoColor=white)
+### [Pulsezy](https://pulsezy.app) · my own product
+An adaptive fitness app on **Google Play**. It builds each workout from the user's goals, history and recovery, then adjusts as they train.
 
-&nbsp;
+**I built all of it:** the React Native app, the Supabase backend, subscriptions with RevenueCat + Google Play Billing, and the Play Store release.
 
-**[Snipix](https://snipix.vercel.app)** — Full-stack code snippet platform with multi-level sharing and global search.
+`React Native` `Expo` `TypeScript` `Supabase` `RevenueCat`
 
-![Next.js](https://img.shields.io/badge/Next.js-0070F3?style=flat-square&logo=nextdotjs&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-0070F3?style=flat-square&logo=mongodb&logoColor=white)
-![Express](https://img.shields.io/badge/Express-0070F3?style=flat-square&logo=express&logoColor=white)
+</td>
+</tr>
+</table>
 
-&nbsp;
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**[ScoutIQ](https://github.com/Rakeshvanam6868)** — AI deal automation pipeline using Google Gemini to extract and post structured deals.
+### 💬 Embeddable AI chat widget
+**14-day contract · US SaaS client**
 
-![Next.js](https://img.shields.io/badge/Next.js-0070F3?style=flat-square&logo=nextdotjs&logoColor=white)
-![Gemini](https://img.shields.io/badge/Google_Gemini-0070F3?style=flat-square&logo=google&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-0070F3?style=flat-square&logo=prisma&logoColor=white)
+A chat widget any website adds with one script tag, streaming AI replies in real time.
+
+- iframe isolation so host-site CSS can't break it
+- Theming through CSS variables
+- One UMD/IIFE bundle that loads anywhere
+- Session handling, chat history and integration docs
+
+`React 18` `TypeScript` `Vite` `Tailwind` `SSE`
+
+</td>
+<td width="50%" valign="top">
+
+### 🎓 Learning management system
+**Internship · 5th Dimension Technologies**
+
+A course platform for students, instructors and admins.
+
+- OTP sign-up and role-based access
+- Course payments
+- Found and fixed failing production email delivery
+- Five-person team, and I led two interns
+
+`Next.js` `PostgreSQL` `Prisma` `Neon`
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>More builds (click to expand)</b></summary>
+<br />
+
+| Project | What it is | Links |
+|---|---|---|
+| **Snipix** | Workspace for saving and sharing code snippets, with search · Next.js, Express, MongoDB | [Live](https://snipix.vercel.app/) · [Code](https://github.com/Rakeshvanam6868/Snipix) |
+| **Spiron.ai** | Next.js + TypeScript web app | [Live](https://spironai.vercel.app/) · [Code](https://github.com/Rakeshvanam6868/Spiron-ai) |
+| **Value Hunter** | Next.js web app | [Live](https://value-hunter.vercel.app/) · [Code](https://github.com/Rakeshvanam6868/ValueHunter) |
+| **FastGrid** | JavaScript web app | [Live](https://fast-grid-beige.vercel.app/) · [Code](https://github.com/Rakeshvanam6868/FastGrid) |
+
+</details>
 
 ---
 
-<div align="center">
+## ⚡ What I work with
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0070F3?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakeshvanam1/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0070F3?style=flat-square&logo=vercel&logoColor=white)](https://rakesh-vanam.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-0070F3?style=flat-square&logo=gmail&logoColor=white)](mailto:rakeshvanam2002@gmail.com)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,nodejs,express,postgres,prisma,supabase,mongodb,vercel,git&perline=13" alt="Tech stack icons" />
+</p>
 
-</div>
+<details>
+<summary><b>Details by layer</b></summary>
+<br />
+
+| Layer | Tools |
+|---|---|
+| 📱 Mobile | React Native, Expo, RevenueCat, Google Play Billing |
+| 🖥 Web UI | React, Next.js, TypeScript, Tailwind CSS |
+| 🔌 API | Node.js, Express, REST, auth, role-based access, payments, LLM APIs, SSE streaming |
+| 🗄 Data | PostgreSQL, Prisma, Supabase, MongoDB, Neon |
+
+300+ LeetCode problems solved.
+
+</details>
+
+---
+
+## 📈 Contributions in 3D
+
+<p align="center">
+  <img src="profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D contribution graph" />
+</p>
+
+---
+
+<p align="center">
+  <b>Looking for an engineer who ships?</b> I'm open to full-time roles, paid trials and contract work.<br />
+  <a href="mailto:rakeshvanam2002@gmail.com">rakeshvanam2002@gmail.com</a> · <a href="https://rakesh-vanam.vercel.app/">rakesh-vanam.vercel.app</a>
+</p>

@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="t d">
+  <title id="t">Rakesh Vanam, Full-Stack Product Engineer</title>
+  <desc id="d">An animated isometric stack of four layers (mobile app, web UI, API and data) next to Rakesh's name and title.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="1" stop-color="#121a12"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c6f432" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#c6f432" stop-opacity=".05"/>
+    </linearGradient>
+    <linearGradient id="faceHot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c6f432" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#c6f432" stop-opacity=".15"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".04"/>
+    </pattern>
+    <style>
+      text { font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .name { font-size: 62px; font-weight: 800; fill: #f2f5f0; letter-spacing: -1.5px; }
+      .role { font-size: 30px; font-weight: 600; fill: #c6f432; }
+      .line { font-size: 23px; fill: #a9b3a6; }
+      .chip { font-size: 17px; fill: #d9e0d6; }
+      .face-label { font-size: 21px; font-weight: 700; fill: #f2f5f0; }
+      .face-sub { font-size: 14.5px; fill: #c9d2c6; }
+      .side-l { fill: #1c2a12; }
+      .side-r { fill: #26381a; }
+      .edge { fill: none; stroke: #c6f432; stroke-opacity: .7; stroke-width: 1.4; }
+
+      .float { animation: float 6s ease-in-out infinite; }
+      .l1 { animation-delay: 0s; }
+      .l2 { animation-delay: -1.5s; }
+      .l3 { animation-delay: -3s; }
+      .l4 { animation-delay: -4.5s; }
+      @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+
+      /* A packet travelling down through the stack: UI -> API -> data */
+      .packet { animation: drop 4s cubic-bezier(.6,0,.4,1) infinite; }
+      @keyframes drop {
+        0% { transform: translateY(0); opacity: 0; }
+        10% { opacity: 1; }
+        85% { opacity: 1; }
+        100% { transform: translateY(252px); opacity: 0; }
+      }
+      .pulse { animation: pulse 2.2s ease-out infinite; transform-origin: 72px 398px; }
+      @keyframes pulse { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(3); opacity: 0; } }
+      .hot { animation: hot 8s steps(1) infinite; }
+      @keyframes hot { 0%, 100% { opacity: 0; } 50% { opacity: 1; } }
+
+      @media (prefers-reduced-motion: reduce) {
+        .float, .packet, .pulse, .hot { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="470" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="470" rx="28" fill="url(#grid)"/>
+
+  <!-- Left: identity -->
+  <text x="64" y="150" class="name">Rakesh Vanam</text>
+  <text x="66" y="200" class="role">Full-Stack Product Engineer</text>
+  <text x="66" y="250" class="line">I build every layer of a product,</text>
+  <text x="66" y="280" class="line">from the app screen down to the database, and ship it.</text>
+
+  <g transform="translate(66 320)">
+    <rect width="150" height="38" rx="17" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+    <text x="75" y="25" text-anchor="middle" class="chip">React · Next.js</text>
+    <rect x="162" width="144" height="38" rx="17" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+    <text x="234" y="25" text-anchor="middle" class="chip">React Native</text>
+    <rect x="318" width="168" height="38" rx="17" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".12"/>
+    <text x="402" y="25" text-anchor="middle" class="chip">Node · Postgres</text>
+  </g>
+
+  <circle class="pulse" cx="72" cy="398" r="6" fill="#c6f432"/>
+  <circle cx="72" cy="398" r="6" fill="#c6f432"/>
+  <text x="88" y="404" class="chip">Bengaluru · open to full-time roles</text>
+
+  <!-- Right: isometric stack. Each layer = top face (iso-transformed square) + two side faces. -->
+  <g transform="translate(905 22)">
+    <!-- Layer 1: Mobile -->
+    <g class="float l1"><g transform="translate(0 0)">
+      <polygon class="side-l" points="-170,85 0,170 0,184 -170,99"/>
+      <polygon class="side-r" points="0,170 170,85 170,99 0,184"/>
+      <g transform="matrix(1 .5 -1 .5 0 0)">
+        <rect width="170" height="170" fill="url(#face)" class="edge"/>
+        <rect width="170" height="170" fill="url(#faceHot)" class="hot"/>
+      </g>
+      <text x="0" y="82" text-anchor="middle" class="face-label">Mobile app</text>
+      <text x="0" y="104" text-anchor="middle" class="face-sub">React Native · Expo</text>
+    </g></g>
+
+    <!-- Layer 2: Web UI -->
+    <g class="float l2"><g transform="translate(0 84)">
+      <polygon class="side-l" points="-170,85 0,170 0,184 -170,99"/>
+      <polygon class="side-r" points="0,170 170,85 170,99 0,184"/>
+      <g transform="matrix(1 .5 -1 .5 0 0)">
+        <rect width="170" height="170" fill="url(#face)" class="edge"/>
+      </g>
+      <text x="0" y="82" text-anchor="middle" class="face-label">Web UI</text>
+      <text x="0" y="104" text-anchor="middle" class="face-sub">React · Next.js · TypeScript</text>
+    </g></g>
+
+    <!-- Layer 3: API -->
+    <g class="float l3"><g transform="translate(0 168)">
+      <polygon class="side-l" points="-170,85 0,170 0,184 -170,99"/>
+      <polygon class="side-r" points="0,170 170,85 170,99 0,184"/>
+      <g transform="matrix(1 .5 -1 .5 0 0)">
+        <rect width="170" height="170" fill="url(#face)" class="edge"/>
+      </g>
+      <text x="0" y="82" text-anchor="middle" class="face-label">API</text>
+      <text x="0" y="104" text-anchor="middle" class="face-sub">Node · Express · Auth · Payments</text>
+    </g></g>
+
+    <!-- Layer 4: Data -->
+    <g class="float l4"><g transform="translate(0 252)">
+      <polygon class="side-l" points="-170,85 0,170 0,184 -170,99"/>
+      <polygon class="side-r" points="0,170 170,85 170,99 0,184"/>
+      <g transform="matrix(1 .5 -1 .5 0 0)">
+        <rect width="170" height="170" fill="url(#face)" class="edge"/>
+      </g>
+      <text x="0" y="82" text-anchor="middle" class="face-label">Data</text>
+      <text x="0" y="104" text-anchor="middle" class="face-sub">PostgreSQL · Prisma · Supabase</text>
+    </g></g>
+
+    <!-- Request packet travelling through the stack -->
+    <g class="packet">
+      <circle cx="0" cy="118" r="5" fill="#c6f432"/>
+      <circle cx="0" cy="118" r="11" fill="#c6f432" fill-opacity=".25"/>
+    </g>
+  </g>
+</svg>
